@@ -1,0 +1,423 @@
+body {
+  background: linear-gradient(180deg, #009ef6 57.84%, #ffffff 100%);
+}
+
+.top-wave {
+  position: absolute;
+  width: 370px;
+  height: 320px;
+  left: 0px;
+  top: 0px;
+}
+
+.bottom-wave {
+  position: absolute;
+  width: 370px;
+  height: 320px;
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+.container {
+  height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  margin-top: 40px;
+}
+
+.card {
+  margin: 50px auto 0;
+  padding: 10px 10px 0;
+  height: 500px;
+  width: 800px;
+  background: linear-gradient(181.85deg, #02a4fe 2.36%, #013e60 99.34%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.card-header {
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin-top: 20px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 5%;
+}
+
+.card-header h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.card-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.card-columns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  height: 300px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.card-columns div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.card-columns div div {
+  width: 100%;
+  height: 50%;
+}
+
+.card-columns div h2 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+}
+
+.card-columns div div img {
+  margin: 0 auto;
+}
+
+.card-columns hr {
+  width: 5px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-footer {
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form input {
+  border-radius: 15px;
+  height: 40px;
+  width: 300px;
+  padding: 5px;
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border: 5px solid #0277b8;
+  outline: none;
+  transition: border 0.3s ease;
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.input-image {
+  position: absolute;
+  bottom: 10px;
+  left: 550px;
+  width: 20px;
+  height: 20px;
+}
+
+.form input:focus {
+  border-color: #0692e0;
+}
+
+.search-btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background: #007abe;
+  color: white;
+  margin-top: 20px;
+  outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: "Lato", sans-serif;
+}
+
+.search-btn:hover {
+  background-color: #0692e0;
+}
+
+.search-btn:active {
+  transform: translate(0px, 2px);
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    padding-top: 0;
+    height: 97vh;
+  }
+
+  .top-wave {
+    width: 230px;
+    height: 200px;
+  }
+
+  .bottom-wave {
+    width: 230px;
+    height: 200px;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+
+  .card {
+    height: 550px;
+    margin-top: 10px;
+  }
+
+  .card-columns {
+    margin-top: 80px;
+  }
+
+  .card-header h2 {
+    margin-top: 0;
+  }
+
+  .card-header h3 {
+    margin-top: 10px;
+  }
+
+  .form input {
+    width: 250px;
+    margin-top: 10px;
+  }
+
+  .search-btn {
+    margin-top: 10px;
+  }
+
+  .input-image {
+    left: 465px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-top: 80px;
+    height: 100vh;
+  }
+
+  .top-wave {
+    width: 175px;
+    height: 150px;
+  }
+
+  .bottom-wave {
+    width: 175px;
+    height: 150px;
+  }
+
+  .logo {
+    margin-top: 70px;
+  }
+
+  .form input {
+    margin-top: 30px;
+  }
+
+  .search-btn {
+    margin-top: 20px;
+  }
+
+  .card {
+    height: 530px;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+  .card-header h2 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .card-header h3 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .card-columns {
+    height: 290px;
+  }
+
+  .card-columns div h2 {
+    font-size: 15px;
+  }
+
+  .card-footer {
+    font-size: 14px;
+  }
+
+  .input-image {
+    left: 200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-top: 0;
+    height: 90vh;
+  }
+
+  .card-header {
+    margin-top: 0;
+  }
+
+  .card-columns {
+    margin-top: 10px;
+  }
+
+  .top-wave {
+    width: 140px;
+    height: 120px;
+  }
+
+  .bottom-wave {
+    width: 140px;
+    height: 120px;
+  }
+
+  .card {
+    height: 400px;
+    width: 350px;
+    margin-top: 10px;
+  }
+
+  .input-image {
+    left: 55px;
+
+    height: 18px;
+    width: 18px;
+  }
+
+  .search-btn {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    height: 100vh;
+  }
+  .container {
+    padding-top: 50px;
+  }
+
+  .card-columns {
+    margin-top: 20px;
+  }
+
+  .card-header {
+    margin-top: 20px;
+  }
+
+  .top-wave {
+    width: 140px;
+    height: 120px;
+  }
+
+  .bottom-wave {
+    width: 140px;
+    height: 120px;
+  }
+
+  .logo {
+    margin-top: 0px;
+  }
+
+  .card {
+    height: 360px;
+    width: 300px;
+  }
+
+  .card-columns {
+    height: 170px;
+  }
+
+  .card-header h2 {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  .card-header h3 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .card-columns div {
+    padding: 0 5px;
+  }
+
+  .card-columns div h2 {
+    font-size: 14px;
+  }
+
+  .form input {
+    width: 220px;
+    height: 35px;
+    font-size: 13px;
+  }
+
+  .input-image {
+    left: 45px;
+    bottom: 10px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .search-btn {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .card {
+    width: 100%;
+  }
+}
