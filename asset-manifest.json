@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WeatherReduxApp/static/css/main.61370163.chunk.css",
+    "main.js": "/WeatherReduxApp/static/js/main.4f77d242.chunk.js",
+    "main.js.map": "/WeatherReduxApp/static/js/main.4f77d242.chunk.js.map",
+    "runtime-main.js": "/WeatherReduxApp/static/js/runtime-main.f320f85e.js",
+    "runtime-main.js.map": "/WeatherReduxApp/static/js/runtime-main.f320f85e.js.map",
+    "static/js/2.95dc7a2a.chunk.js": "/WeatherReduxApp/static/js/2.95dc7a2a.chunk.js",
+    "static/js/2.95dc7a2a.chunk.js.map": "/WeatherReduxApp/static/js/2.95dc7a2a.chunk.js.map",
+    "index.html": "/WeatherReduxApp/index.html",
+    "static/css/main.61370163.chunk.css.map": "/WeatherReduxApp/static/css/main.61370163.chunk.css.map",
+    "static/js/2.95dc7a2a.chunk.js.LICENSE.txt": "/WeatherReduxApp/static/js/2.95dc7a2a.chunk.js.LICENSE.txt",
+    "static/media/Logo.23cf4053.svg": "/WeatherReduxApp/static/media/Logo.23cf4053.svg",
+    "static/media/UPPER DESIGN.9c162000.svg": "/WeatherReduxApp/static/media/UPPER DESIGN.9c162000.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f320f85e.js",
+    "static/js/2.95dc7a2a.chunk.js",
+    "static/css/main.61370163.chunk.css",
+    "static/js/main.4f77d242.chunk.js"
+  ]
+}
